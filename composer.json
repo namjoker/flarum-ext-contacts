@@ -1,0 +1,31 @@
+{
+  "name": "avatar4eg/flarum-ext-contacts",
+  "description": "Contacts list for Flarum forum",
+  "type": "flarum-extension",
+  "keywords": ["contact", "item"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolai Morozov",
+      "email": "avanmorozov@gmail.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Avatar4eg\\Contacts\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Contacts",
+      "icon": {
+        "name": "phone",
+        "backgroundColor": "#5B7FA6",
+        "color": "#fff"
+      }
+    }
+  }
+}

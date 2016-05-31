@@ -1,0 +1,6 @@
+{
+  "name": "avatar4eg-contacts-admin",
+  "devDependencies": {
+    "html.sortable": "^0.3.1"
+  }
+}

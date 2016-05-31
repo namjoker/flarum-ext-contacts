@@ -1,0 +1,33 @@
+avatar4eg-contacts:
+  admin:
+    edit_contact:
+      delete_contact_button: Delete Contact
+      delete_contact_confirmation: "Are you sure you want to delete this contact?"
+      title_label: => avatar4eg-contacts.ref.title
+      title_placeholder: => avatar4eg-contacts.ref.title
+      submit_button: => core.ref.save_changes
+      title: => avatar4eg-contacts.ref.create_contact
+      url_label: => avatar4eg-contacts.ref.url
+      url_placeholder: => avatar4eg-contacts.ref.url
+      type_label: => avatar4eg-contacts.ref.type
+      icon_label: => avatar4eg-contacts.ref.icon
+      type_url: Link
+      type_phone: Phone
+      type_mail: Email
+
+    contacts:
+      about_text: Manage contacts list in left pannel.
+      create_button: => avatar4eg-contacts.ref.create_contact
+      contacts: => avatar4eg-contacts.ref.contacts
+
+    nav:
+      contacts_button: => avatar4eg-contacts.ref.contacts
+      contacts_text: Manage contacts list.
+
+  ref:
+    create_contact: Create Contact
+    title: Title
+    url: Url
+    type: Type
+    icon: Icon
+    contacts: Contacts
