@@ -88,7 +88,6 @@ System.register('avatar4eg/contacts/components/Contacts', ['flarum/Component', '
                     key: 'view',
                     value: function view() {
                         var items = this.items().toArray();
-                        console.log(items);
 
                         return m('div', {
                             className: 'Contacts',

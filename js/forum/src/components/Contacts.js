@@ -9,7 +9,6 @@ import sortContacts from 'avatar4eg/contacts/utils/sortContacts';
 export default class Contacts extends Component {
     view() {
         var items = this.items().toArray();
-        console.log(items);
 
         return m('div', {
             className: 'Contacts',
