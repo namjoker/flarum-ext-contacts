@@ -1,5 +1,5 @@
 {
-  "name": "avatar4eg/flarum-ext-contacts",
+  "name": "namjoker/flarum-ext-contacts",
   "description": "Contacts list for Flarum forum",
   "type": "flarum-extension",
   "keywords": ["contact", "item"],
